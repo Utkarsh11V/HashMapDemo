@@ -31,6 +31,8 @@ public class Main {
         while(itr1.hasNext()) {
             Map.Entry<String, String> em = (Map.Entry<String, String>)itr1.next();
             System.out.println("key : "+ em.getKey()+ "  value: "+em.getValue());
+
+
         }
 
         System.out.println("** Iteration using Map.Entry Again ***");
@@ -42,6 +44,9 @@ public class Main {
         System.out.println("hello....");
         System.out.println("hello..Java..");
         System.out.println("hello..Java2..");
+
+
+
 
     }
 }
